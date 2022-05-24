@@ -1,0 +1,57 @@
+.social-main {
+    position: fixed;
+    top: 50%;
+    left: 10px;
+    z-index: 100;
+}
+
+.social .icon {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: #0B90CE;
+    padding: 10px 9px;
+    border-radius: 50%;
+}
+
+.social .icon:hover {
+    color: rgb(5, 21, 43);
+}
+
+.social p {
+    font-size: 8px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:500px) {
+    .social {
+        width: 100px;
+        height: 50px;
+        display: flex;
+    }
+    .social .icon {
+        margin: 0px 5px;
+        padding: 13px;
+        border-radius: 50%;
+        background-color: #0B90CE;
+        color: aliceblue;
+    }
+    .icon p {
+        display: none;
+    }
+    .social {
+        position: fixed;
+        top: 90%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .social .icon {
+        font-size: 25px;
+    }
+}

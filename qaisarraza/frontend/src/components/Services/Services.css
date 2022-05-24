@@ -1,0 +1,64 @@
+.services {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(5, 21, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services h1 {
+    color: #0B90CE;
+    margin-top: 7%;
+    border-bottom: 3px solid rgb(173, 173, 36);
+}
+
+.servicescard {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+
+.servicescard .scard {
+    width: 320px;
+    height: 370px;
+    background-color: transparent;
+    margin: 0px 10px;
+    border-radius: 8px;
+    padding: 0px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #0B90CE;
+    ;
+}
+
+.scard h3 {
+    color: white;
+    text-align: justify;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.scard h2 {
+    color: #0B90CE;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+
+@media screen and (max-width:500px) {
+    .servicescard {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

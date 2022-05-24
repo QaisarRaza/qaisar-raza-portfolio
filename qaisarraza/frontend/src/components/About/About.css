@@ -1,0 +1,157 @@
+.about {
+    width: 100%;
+    height: auto;
+    background-color: rgb(5, 21, 43);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.about h1 {
+    color: #0B90CE;
+    border-bottom: 3px solid rgb(173, 173, 36);
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
+
+.aboutrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.picimg {
+    background-image: url(qaisar1.png);
+    width: 300px;
+    height: 320px;
+    background-size: 100% 100%;
+    transform: rotate(10deg);
+    border-radius: 10px;
+}
+
+.piccolor {
+    width: 300px;
+    height: 320px;
+    background-color: #0b90ce30;
+    border: 5px solid rgb(173, 173, 36);
+    border-radius: 10px;
+}
+
+.aboutcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 600px;
+    flex-shrink: 1;
+    padding: 20px 20px;
+}
+
+.box {
+    display: flex;
+}
+
+.box .box1 {
+    width: 170px;
+    height: 130px;
+    background-color: #0b90ce2b;
+    border-radius: 7px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box1 .home {
+    font-size: 22px;
+    color: aliceblue;
+}
+
+.box1 h4 {
+    color: #0B90CE;
+    font-size: 15px;
+    margin: 2px;
+}
+
+.box1 h5 {
+    color: rgb(221, 218, 218);
+    font-size: 12px;
+}
+
+.aboutcontent p {
+    color: white;
+    margin: 10px 0px;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.aboutbtn button {
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #0B90CE;
+    outline: none;
+    border-radius: 5px;
+    color: #0B90CE;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.aboutbtn button:hover {
+    color: white;
+    background-color: #0B90CE;
+}
+
+@media screen and (max-width:768px) {
+    .picimg {
+        width: 250px;
+        height: 250px;
+    }
+    .piccolor {
+        width: 250px;
+        height: 250px;
+    }
+    .aboutcontent {
+        flex-basis: 400px;
+        margin-top: 30px;
+    }
+    .about {
+        height: auto;
+        padding: 70px 0px 80px 0px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .picimg {
+        width: 280px;
+        height: 310px;
+    }
+    .piccolor {
+        width: 280px;
+        height: 310px;
+    }
+    .aboutcontent {
+        flex-basis: 300px;
+        margin-top: 30px;
+    }
+    .box .box1 {
+        width: 150px;
+        height: 120px;
+    }
+    .aboutcontent p {
+        font-size: 16px;
+    }
+    .aboutbtn button {
+        width: 140px;
+    }
+    .picimg {
+        transform: rotate(0deg);
+    }
+}

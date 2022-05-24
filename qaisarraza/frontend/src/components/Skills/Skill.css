@@ -1,0 +1,176 @@
+.skill {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(5, 21, 43);
+    /* padding: 71px 0px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skill h1 {
+    color: #0B90CE;
+    border-bottom: 3px solid rgb(173, 173, 36);
+    width: 233px;
+    margin-top: 7%;
+}
+
+.sweap {
+    width: 50%;
+}
+
+.sweapbox1 {
+    height: 370px !important;
+    margin-bottom: 80px;
+    border: 3px solid #0B90CE;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 5px;
+}
+
+.sweapbox1 p {
+    color: #0B90CE;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sweapbox1 h2 {
+    color: white;
+}
+
+.sweapbox1 h3 {
+    color: ghostwhite;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.avg {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+}
+
+.prsn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.range {
+    width: 100%;
+    height: 5px;
+    background-color: white;
+}
+
+.prsnrange {
+    width: 80%;
+    height: 5px;
+    background-color: #0B90CE;
+}
+
+.prsn1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.range1 {
+    width: 100%;
+    height: 5px;
+    background-color: white;
+}
+
+.prsnrange1 {
+    width: 75%;
+    height: 5px;
+    background-color: #0B90CE;
+}
+
+.prsn2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.range2 {
+    width: 100%;
+    height: 5px;
+    background-color: white;
+}
+
+.prsnrange2 {
+    width: 55%;
+    height: 5px;
+    background-color: #0B90CE;
+}
+
+.prsn3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.range3 {
+    width: 100%;
+    height: 5px;
+    background-color: white;
+}
+
+.prsnrange3 {
+    width: 60%;
+    height: 5px;
+    background-color: #0B90CE;
+}
+
+.prsn4 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.range4 {
+    width: 100%;
+    height: 5px;
+    background-color: white;
+}
+
+.prsnrange4 {
+    width: 70%;
+    height: 5px;
+    background-color: #0B90CE;
+}
+
+.avg h4 {
+    color: white;
+}
+
+.swiper-pagination-bullet {
+    background-color: #0B90CE !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #0B90CE !important;
+}
+
+@media screen and (max-width:425px) {
+    .sweap p {
+        font-size: 20px;
+    }
+    .sweap {
+        width: 80%;
+    }
+    .sweapbox1 h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .sweapbox1 h3 {
+        font-size: 13px;
+    }
+}

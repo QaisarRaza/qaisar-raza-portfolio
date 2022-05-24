@@ -1,0 +1,181 @@
+#team {
+    background: #1E1D37;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#team h1 {
+    color: var(--main-bg-color);
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#team h1::after {
+    content: "";
+    background: var(--main-bg-color);
+    width: 220px;
+    height: 3px;
+    position: absolute;
+    bottom: -5%;
+    left: 48px;
+}
+
+#team .cardsContainer{
+    width: 90%;
+    padding-bottom: 3rem;
+}
+
+#team .cardsContainer .cards{
+    width: 300px;
+    height: 350px;
+    /* border: 2px solid var(--main-bg-color); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+#team .cards img{
+    width: 100px;
+    border-radius: 100%;
+    margin-top: 30px;
+}
+
+#team .cards h2{
+    color: var(--main-bg-color);
+    margin-top: 10px;
+}
+
+#team .cards p{
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#team .cards a{
+    text-decoration: none;
+}
+
+#team .cardsContainer .animatedHover{
+    position: absolute;
+    bottom: -50%;
+    left: -50%;
+    background:var(--main-bg-color);
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    width: 150px;
+    height: 150px;
+    transition: all 0.3s ease;
+}
+
+#team .cardsContainer .cards:hover .animatedHover{
+    bottom: -1%;
+    left: -1%;   
+}
+
+#team .cards .animatedHover .socialIcons{
+    display: flex;
+    margin-top: 120px;
+    margin-left: 5px;
+}
+
+#team .cards .icons{
+    display: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+#team .cardsContainer .cards:hover .icons{
+    display: block;
+}
+
+
+#team .cards .line-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: var(--main-bg-color);
+    animation: animate1 4s linear infinite;
+    animation-delay: 2s;
+}
+
+@keyframes animate1{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+
+#team .cards .line-2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: var(--main-bg-color);
+    animation: animate2 4s linear infinite;
+}
+
+@keyframes animate2{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(100%);
+    }
+}
+
+#team .cards .line-3{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 3px;
+    background: var(--main-bg-color);
+    animation: animate3 4s linear infinite;
+    animation-delay: 2s;
+}
+
+@keyframes animate3{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+#team .cards .line-4{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: var(--main-bg-color);
+    animation: animate4 4s linear infinite;
+}
+
+@keyframes animate4{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(-100%);
+    }
+}
+
+
+@media  screen and (max-width:500px) {
+    #team .cardsContainer{
+        margin-left: 35px;
+    }
+}
