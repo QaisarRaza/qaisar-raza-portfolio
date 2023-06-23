@@ -29,13 +29,13 @@ const PortfolioData = [{
         live: "https://todotable48.netlify.app"
     },
     {
-        category: "mearn",
+        category: "mern",
         menImg: "./images/pic2.png",
         position: "Calculator",
         live: "https://calculator48.netlify.app"
     },
     {
-        category: "mearn",
+        category: "mern",
         menImg: "./images/pic6.png",
         position: "ToDo List",
         live: "https://listtodo48.netlify.app"
