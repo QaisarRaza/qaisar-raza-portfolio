@@ -65,7 +65,7 @@ function PortfolioPage1() {
         <div className="filter">
           <button onClick={() => setUsers(PortfolioData)}>All</button>
           <button onClick={() => filter("react")}>React</button>
-          <button onClick={() => filter("mern")}>MERN Project</button>
+          <button onClick={() => filter("mearn")}>MERN Project</button>
         </div>
 
         {/* search method  */}
