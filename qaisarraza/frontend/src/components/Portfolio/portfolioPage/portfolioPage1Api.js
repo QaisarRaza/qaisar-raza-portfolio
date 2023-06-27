@@ -41,7 +41,7 @@ const PortfolioData = [{
         live: "https://listtodo48.netlify.app"
     },
     {
-        id: 8,
+        category: "mern",
         menImg: "./images/pic3.png",
         position: "PrimeReact website",
         live: "https://primereact.herokuapp.com"
